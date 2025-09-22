@@ -107,6 +107,3 @@ CREATE TABLE Grades (
     FOREIGN KEY (TeacherId) REFERENCES Teachers(TeacherId) ON DELETE SET NULL,
     UNIQUE (EnrollmentId, StudentId, ExamId, TeacherId)
 );
-
-
--- View to get student details along with their guardians
