@@ -105,5 +105,5 @@ CREATE TABLE Grades (
     FOREIGN KEY (EnrollmentId) REFERENCES Enrollments(EnrollmentId) ON DELETE CASCADE,
     FOREIGN KEY (ExamId) REFERENCES Exams(ExamId) ON DELETE CASCADE,
     FOREIGN KEY (TeacherId) REFERENCES Teachers(TeacherId) ON DELETE SET NULL,
-    UNIQUE (EnrollmentId, StudentId, ExamId, TeacherId)
+    UNIQUE (EnrollmentId, ExamId, TeacherId)
 );
