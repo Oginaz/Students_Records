@@ -1,2 +1,2 @@
 # Students_Records
-students dbms schema
+students database management system schema
